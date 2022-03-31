@@ -1,0 +1,266 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:100%;
+    background-image:url(https://media.istockphoto.com/photos/african-american-teacher-and-her-student-using-laptop-during-computer-picture-id1331594985?b=1&k=20&m=1331594985&s=170667a&w=0&h=OSe_MSytB582ulUl3SFdABPMlERISw7nMJm53rApU9U=) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;   
+}
+main h1{
+    text-align: center;
+    color: #000;
+}
+main button{
+    background:linear-gradient(rgb(0, 52, 148),rgba(3, 241, 222, 0.993));
+    border:none;
+    height: 60Px;
+   
+}
+main button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main button:hover{
+    background:linear-gradient(rgb(3, 241, 222),rgba(0, 52, 149, 0.993));
+    color:white;
+    height: 60Px;
+  
+    border: none;
+}
+main button:hover a{
+    color: #fff;
+}
+.wow{
+    height: auto;
+    margin-left: 1%;
+    width: 32%;
+    display: flex;
+    gap: 5px;
+}
+fieldset{
+    font-style: oblique;
+    color: blue;
+}
+/* button{
+    color:black;
+    background-color:rgb(145, 145, 252);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+} */
+button a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+}
+.col{
+    padding-bottom: 20px;
+}
+.dir1{
+   
+    width: 100%;
+    background-color: #222;
+    /* display: flex; */
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center; 
+    height: 40vh;
+}
+.col2{
+    width: 100%;
+    padding-bottom:0px ;
+    margin-left: 0px;
+}
+/* a i{
+    margin-bottom: 5px;
+} */
+.icons i{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.dir2{
+    height: 10vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+ol{
+    list-style: none;
+    display: flex;
+}
+ol a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    /* font-size: 15px; */
+    font-size: large;
+}
+.r{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size:large;
+}
+.style{
+    font-size: x-large;
+    font-style:italic;
+    font-weight:200;
+}
+.good{
+    margin-left: 200px;
+}
+@media(max-width:1300px){
+    .good{
+        margin-left: 175px;
+    }
+}
+@media(max-width:1250px){
+    .good{
+        margin-left: 150px;
+    }
+}
+@media(max-width:1200px){
+    .good{
+        margin-left: 100px;
+    }
+}
+@media(max-width:1100px){
+    .good{
+        margin-left: 10px;
+    }
+}
+@media(max-width:1000px){
+    .good{
+        margin-left: 300px;
+    }
+}
+@media(max-width:900px){
+    .good{
+        margin-left: 250px;
+    }
+}
+@media(max-width:800px){
+    .good{
+        margin-left: 200px;
+    }
+}
+@media(max-width:700px){
+    .good{
+        margin-left: 150px;
+    }
+}
+@media(max-width:600px){
+    .good{
+        margin-left: 100px;
+    }
+}
+@media(max-width:400px){
+    .good{
+        margin-left: 50px;
+    }
+}@media(max-width:250px){
+    .good{
+        margin-left:0px;
+    }
+}
+
+@media(max-width:800px){
+    .r{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size:medium;
+    }
+    ol a{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        /* font-size: 15px; */
+        font-size: medium;
+    }
+}
+@media(max-width:600px){
+    .r{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size:small;
+    }
+    ol a{
+        text-decoration: none;
+        color: white;
+        margin-right: 15px;
+        /* font-size: 15px; */
+        font-size: small;
+    }
+}
+@media(max-width:400px){
+    .r{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size:x-small;
+    }
+    ol a{
+        text-decoration: none;
+        color: white;
+        margin-right: 15px;
+        /* font-size: 15px; */
+        font-size: x-small;
+    }
+}
+.www{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+@media(max-width:1000px){
+    .www{
+        display: flex;
+        flex-direction:column;
+    }
+    .a123{
+        width: 100%;
+    }
+}
+/* div ul{
+    list-style: none;
+    color: #fff;
+    
+} */
+/* {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight:bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 50px;
+    text-decoration-style: dashed;
+    text-shadow:15px 1px 5px rgba(33,70,33,1);
+    text-align: center;
+} */

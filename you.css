@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ko{
+    background:linear-gradient(rgb(0, 52, 148),rgba(3, 241, 222, 0.993));
+    height: 100%;
+}
+.t{
+    background: transparent;
+    border: none;
+    border-bottom: 2px black solid;
+    outline: none;
+    width: 50%;
+    margin: 25px;
+    
+}
+.hj{
+    display: flex;
+    flex-direction: column;
+}
+::placeholder{
+color:greenyellow;
+font-size:medium;
+}
+
+@media(max-width:700px){
+    .ko h1{
+    font-size: 20px;
+    }
+}
